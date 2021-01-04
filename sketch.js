@@ -3,8 +3,8 @@ var database;
 var foodS,foodStock;
 
 function preload(){
-dogImg = loadImage("images/dogImg.png");
-happyDog = loadImage("images/dogImg1.png");
+  dogImg = loadImage("dogImg.png");
+  happyDog = loadImage("dogImg1.png");
 }
 
 function setup() {
@@ -12,7 +12,7 @@ function setup() {
 
   createCanvas(500, 500);
   
-var dog = createSprite(250,300,150,150);
+dog = createSprite(250,300,150,150);
  dog.addImage(dogImg);
  dog.scale = 0.15;
 
